@@ -12,7 +12,7 @@ export default defineConfig({
       entry: resolve(__dirname, 'lib/main.ts'),
       formats: ['es'],
       name: 'vdtest',
-      fileName: 'vd-test',
+      fileName: 'vdtest',
     },
     rollupOptions: {
       external: ['react', 'react/jsx-runtime'],
